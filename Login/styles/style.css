@@ -284,6 +284,9 @@ h6 {
 	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 1px;
 }
+h2 {
+    font-weight:bold;
+}
 
 p {
 	margin: 0;
@@ -340,28 +343,28 @@ h1.header-w3ls {
 }
 
 .art-left-w3ls {
-	flex-basis: 40%;
-	-webkit-flex-basis: 40%;
-	box-sizing: border-box;
-	min-height: 100vh;
-	background: #00a1ff;
-	box-sizing: border-box;
+    flex-basis: 40%;
+    -webkit-flex-basis: 40%;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background: #5abd59;
+    box-sizing: border-box;
 }
 
 .form-left-to-w3l input[type="email"],
 .form-left-to-w3l input[type="password"],
 .form-left-to-w3l input[type="text"] {
-	width: 100%;
-	color: #000;
-	outline: none;
-	border: none;
-	border-bottom: #00a1ff 2px solid;
-	-webkit-appearance: none;
-	background: #ffffff96;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	box-sizing: border-box;
+    width: 100%;
+    color: #000;
+    outline: none;
+    border: none;
+    border-bottom: #5abd59 2px solid;
+    -webkit-appearance: none;
+    background: #ffffff96;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    box-sizing: border-box;
 }
 
 ::-webkit-input-placeholder {
@@ -390,22 +393,22 @@ h1.header-w3ls {
 }
 
 button[type=submit] {
-	background: #00a1ff;
-	outline: none;
-	color: #fff;
-	font-size: 14px;
-	font-weight: 400;
-	border: none;
-	padding: 11px 20px;
-	letter-spacing: 1px;
-	text-transform: capitalize;
-	cursor: pointer;
-	transition: 0.5s all;
-	margin: 56px 0px 0px;
-	-webkit-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-ms-transition: 0.5s all;
+    background: #5abd59;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    padding: 11px 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.5s all;
+    margin: 56px 0px 0px;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
 }
 
 button[type=submit]:hover {
@@ -566,7 +569,8 @@ input.checked {
 		font-size: 53px;
 	}
 	.art-right-w3ls h2 {
-		font-size: 28px;
+		font-size: 30px;
+
 	}
 	.form-left-to-w3l input[type="email"],
 	.form-left-to-w3l input[type="password"],

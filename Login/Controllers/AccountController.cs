@@ -24,7 +24,7 @@ namespace Login.Controllers
         }
         void ConnectionString()
         {
-            con.ConnectionString = "data source = DESKTOP-QO6VV04; database = QUICKCHEF; Integrated Security = SSPI";
+            con.ConnectionString = "data source = .; database = QUICKCHEF; Integrated Security = SSPI";
            
         }
         //Este metodo verifica las cuentas, tiene como referencia la clase Account.cs del folder de modelos.
@@ -46,7 +46,12 @@ namespace Login.Controllers
             else
             {
                 con.Close();
-                return View("Error");
+                string mensaje = "Usuario o Contrasena incorrectos";
+                ViewData["msg"] = mensaje;
+                
+                return View("Login");
+
+                // return View("Error");
             }
                                   
         }
